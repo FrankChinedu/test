@@ -1,7 +1,11 @@
 body{background: linear-gradient(to bottom, #5697f0 0%, #54c3f4 100%); padding:50px;}
 
 /* general table properties*/
-
+img {
+	height: 220px;
+	width: 200px;
+	border-image-repeat: stretch; 
+}
 
 @media screen {table caption{display: none;}}
 
